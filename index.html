@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <title>UX SA - button demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="http://fonts.googleapis.com/css?family=Arvo&text=button" rel="stylesheet" type="text/css">
+
+        <style>
+          button {
+            font-size: 3em;
+            display: block;
+            margin: 1em auto;
+          }
+          .basic {
+            background-color: cornflowerblue;
+            color: white;
+            border: none;
+            padding: 0.25em 0.5em;
+          }
+          .enhanced {
+            border-radius: 0.5em;
+            background-image: linear-gradient(to top, cornflowerblue, navy);
+            font-family: Arvo, sans-serif;
+            text-shadow: 2px 2px 0 black;
+            box-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.4);
+          }
+        </style>
+    </head>
+    <body>
+
+      <main role="main" id="main" class="main" tabindex="-1">
+
+        <button>Button</button>
+
+        <button class="basic">Button</button>
+
+        <button class="basic enhanced">Button</button>
+
+      </main>
+
+    </body>
+</html>
